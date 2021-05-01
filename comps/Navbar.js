@@ -15,7 +15,7 @@ export default function Navbar() {
           <a>About</a>
         </Link>
         <Link href="/ninjas">
-          <a>Ninja Listing</a>
+          <a>Random Listing</a>
         </Link>
       </nav>
     );
