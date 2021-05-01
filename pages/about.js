@@ -5,7 +5,7 @@ export default function about() {
   return (
     <>
       <Head>
-        <title>Ninja List || About </title>
+        <title>Random Listing || About </title>
         <meta name="keywords" content="ninjas" />
       </Head>
       <div>
