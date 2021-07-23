@@ -1,0 +1,85 @@
+.wrapper {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.cover {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-right: 4em;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header h1 {
+  margin-left: 0.8em;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.progress_container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 55vh;
+  margin-top: 2em;
+}
+
+.row1 {
+  width: 100%;
+}
+
+.row1 input {
+  width: 100%;
+  padding: 0.9em;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #9097a5;
+  border-radius: 10px;
+}
+
+.continue {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  width: 100%;
+  background: #2e9cca;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  padding: 1.2em;
+  margin-top: auto;
+}
+
+.contain {
+  height: 100vh;
+  background: white;
+  padding: 3em;
+  width: 40%;
+  height: auto;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.2);
+}
+
+.heading {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}

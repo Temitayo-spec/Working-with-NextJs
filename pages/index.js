@@ -1,24 +1,18 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Footer from '../comps/Footer'
-import Navbar from '../comps/Navbar'
-import Link from "next/link"
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import Register from "../comps/Register";
 
 export default function Home() {
   return (
-    <>
+    <div className="container">
       <Head>
-        <title>Random Listing || Home</title>
-        <meta name="keywords" content="ninjas"/>
+        <title>Learnovate || Edtech</title>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="An Edtech company" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
-    <div>
-      <h1 className={styles.title}>Homepage</h1>
-      <p className={styles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, molestiae accusantium at ratione tempora dolorum id impedit non voluptas quas recusandae explicabo, doloribus unde quae neque possimus. Itaque dignissimos aliquid temporibus ab! Quaerat, cupiditate! Necessitatibus corrupti ipsam animi molestias, itaque corporis quidem labore veritatis tempore soluta rerum consectetur, accusamus est.</p>
-      <Link href="/ninjas">
-        <a className={styles.btn}>See Random</a></Link>
-
+      <Register />
     </div>
-    </>
-  )
+  );
 }
